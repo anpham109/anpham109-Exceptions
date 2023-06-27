@@ -21,6 +21,7 @@ public class Lab {
      * Check out this guide on throwing exceptions: https://rollbar.com/guides/java/how-to-throw-exceptions-in-java/#
      */
     public void mustThrow() {
-
+        int exceptionVar = 1/0;
+        System.out.println("I will never print: " + exceptionVar);
     }
 }
